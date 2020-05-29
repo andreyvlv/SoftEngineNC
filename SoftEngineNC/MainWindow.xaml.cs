@@ -46,6 +46,7 @@ namespace SoftEngineNC
             mera.Position = new Vector3(0, 0, 10.0f);
             mera.Target = Vector3.Zero;
 
+            // Event for rendering loop
             CompositionTarget.Rendering += CompositionTarget_Rendering;
         }
 
